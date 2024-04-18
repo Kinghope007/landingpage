@@ -1,0 +1,165 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 53, 239);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Intro Section */
+#intro {
+    background-color: #accced;
+    padding: 100px 0;
+    text-align: center;
+    color: #333;
+}
+
+
+
+.cover-image img {
+    max-width: 25000px;
+    height: 400px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #021a03;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    color: #4CAF50;
+}
+/* Feature Section */
+#features {
+    padding: 100px 0;
+    background-color: #eaf6ff; /* Light blue background */
+    text-align: center;
+    color: #333;
+}
+
+.feature {
+    margin-bottom: 40px;
+    position: relative; /* Position relative for absolute positioning of the image */
+}
+
+.feature img {
+    max-width: 200px; /* Adjust width as needed */
+    height: auto;
+    position: center;
+    top: 0;
+    left: 0;
+    margin: 20px; /* Adjust margin as needed */
+    z-index: 1; /* Ensure image stays above text */
+}
+
+.feature-content {
+    padding: 20px;
+    margin-top: 80px; /* Adjust margin-top to create space for the image */
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333; /* Default color */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666; /* Default color */
+    transition: color 0.3s; /* Smooth transition on hover */
+}
+
+/* Hover effect on writing */
+.feature:hover h2,
+.feature:hover p {
+    color: #007bff; /* Blue color on hover */
+}
+
+
+
+/* About Section */
+#about {
+    padding: 100px 0;
+    background-color: #9bcfef;
+    text-align: center;
+    color: #104266;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    margin: 0 20px;
+}
+
+.member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.member ul {
+    margin-bottom: 20px;
+}
+
+.member ul li {
+    margin-bottom: 5px;
+}
+
+/* Optional: Video Section */
+/* Add styles for video section here if desired */
